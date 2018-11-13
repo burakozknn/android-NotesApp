@@ -1,0 +1,22 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateNote {
+  onCreateNote {
+    id
+    title
+    content
+  }
+}
+subscription OnUpdateNote {
+  onUpdateNote {
+    id
+    title
+    content
+  }
+}
+subscription OnDeleteNote {
+  onDeleteNote {
+    id
+    title
+    content
+  }
+}

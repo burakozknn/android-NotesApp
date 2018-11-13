@@ -1,0 +1,11 @@
+{
+    "appName": "notesapp",
+    "roleName": "pinpointLambdaRoled857c37e",
+    "cloudWatchPolicyName": "cloudWatchPolicyd857c37e",
+    "pinpointPolicyName": "pinpointPolicyd857c37e",
+    "authPolicyName": "pinpoint_amplify_d857c37e",
+    "unauthPolicyName": "pinpoint_amplify_d857c37e",
+    "authRoleName": "otespp-20181106221534-authRole",
+    "unauthRoleName": "otespp-20181106221534-unauthRole",
+    "IAMPrefix": "705038358480"
+}

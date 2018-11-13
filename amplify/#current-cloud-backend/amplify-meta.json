@@ -1,0 +1,74 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "otespp-20181106221534-authRole",
+			"UnauthRoleArn": "arn:aws:iam::705038358480:role/otespp-20181106221534-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::705038358480:role/otespp-20181106221534-authRole",
+			"Region": "us-east-1",
+			"DeploymentBucketName": "otespp-20181106221534-deployment",
+			"UnauthRoleName": "otespp-20181106221534-unauthRole",
+			"StackName": "otespp-20181106221534",
+			"StackId": "arn:aws:cloudformation:us-east-1:705038358480:stack/otespp-20181106221534/646db7a0-e23b-11e8-83aa-50d5cad95262"
+		}
+	},
+	"auth": {
+		"cognitof3721eea": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/otespp-20181106221534-deployment/amplify-cfn-templates/auth/cognitof3721eea-cloudformation-template.yml",
+				"logicalId": "authcognitof3721eea"
+			},
+			"lastPushTimeStamp": "2018-11-10T20:04:49.824Z",
+			"output": {
+				"IdentityPoolId": "us-east-1:d0cf985a-0234-4278-9839-2e1962d173b2",
+				"IdentityPoolName": "notesapp_identitypool_e3fab7e5",
+				"AppClientSecret": "ddcvval69vr3dhb7r4iuuptn6mv1hhlefa64c6brjh98036rav",
+				"UserPoolId": "us-east-1_8Nl0tt963",
+				"AppClientIDWeb": "5se1qjtbm12uescb6abb6v3vb3",
+				"AppClientID": "6vccjpddji49jcd6vntnjltk34",
+				"UserPoolName": "cognitof3721eea_userpool_797d9ec0"
+			},
+			"lastPushDirHash": "REzg1eAu7v3qG3dG14W1S/DwoBM=",
+			"[object Object]": {}
+		}
+	},
+	"analytics": {
+		"notesapp": {
+			"service": "Pinpoint",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/otespp-20181106221534-deployment/amplify-cfn-templates/analytics/pinpoint-cloudformation-template.json",
+				"logicalId": "analyticsnotesapp"
+			},
+			"lastPushTimeStamp": "2018-11-10T20:04:49.824Z",
+			"output": {
+				"appName": "notesapp",
+				"Region": "us-east-1",
+				"Id": "690669e5025e4c91aba91556f75fd9fe"
+			},
+			"lastPushDirHash": "WctXTaHCRDeObb1w93m0GOKUBs4="
+		}
+	},
+	"api": {
+		"notesapp": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"securityType": "AMAZON_COGNITO_USER_POOLS",
+				"GraphQLAPIIdOutput": "kg5he633wfhepk5d3ankr57swy",
+				"GraphQLAPIEndpointOutput": "https://fh7avbrwhfbpzb63nvoetgjphu.appsync-api.us-east-1.amazonaws.com/graphql",
+				"GraphQLAPIKeyOutput": "da2-4j2ngy6r6bhl5njzpjkrlmtb5a",
+				"AuthCognitoUserPoolIdOutput": "us-east-1_8Nl0tt963",
+				"AuthCognitoUserPoolNativeClientId": "See UserPool: us-east-1_8Nl0tt963",
+				"AuthCognitoUserPoolJSClientId": "See UserPool: us-east-1_8Nl0tt963"
+			},
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/otespp-20181106221534-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+				"logicalId": "apinotesapp"
+			},
+			"lastPushTimeStamp": "2018-11-10T20:04:50.920Z",
+			"lastPushDirHash": "wGoyaRKwFxVv11yyJWAoXeUGSBU="
+		}
+	}
+}

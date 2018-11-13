@@ -1,0 +1,16 @@
+{
+    "identityPoolName": "notebookapp_identitypool_9a0c8893",
+    "allowUnauthenticatedIdentities": true,
+    "thirdPartyAuth": false,
+    "lambdaLogPolicy": "notebookapp_lambda_log_policy",
+    "openIdLambdaRoleName": "notebookapp_openid_lambda_role",
+    "openIdRolePolicy": "notebookapp_openid_pass_role_policy",
+    "openIdLambdaIAMPolicy": "notebookapp_openid_lambda_iam_policy",
+    "openIdLogPolicy": "notebookapp_openid_lambda_log_policy",
+    "authSelections": "identityPoolOnly",
+    "resourceName": "cognito061e1d99",
+    "unAuthRoleName": "otebookpp-20181106125210-unauthRole",
+    "authRoleName": "otebookpp-20181106125210-authRole",
+    "unAuthRoleArn": "arn:aws:iam::705038358480:role/otebookpp-20181106125210-unauthRole",
+    "authRoleArn": "arn:aws:iam::705038358480:role/otebookpp-20181106125210-authRole"
+}

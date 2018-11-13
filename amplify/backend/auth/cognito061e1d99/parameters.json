@@ -1,0 +1,57 @@
+{
+    "resourceName": "cognito061e1d99",
+    "authSelections": "identityPoolAndUserPool",
+    "userPoolName": "cognito061e1d99_userpool_497d19b1",
+    "autoVerifiedAttributes": [
+        "email"
+    ],
+    "mfaConfiguration": "OFF",
+    "mfaTypes": [
+        "SMS Text Message"
+    ],
+    "roleName": "cognito061e1d99_sns-role",
+    "roleExternalId": "cognito061e1d99_role_external_id",
+    "policyName": "cognito061e1d99-sns-policy",
+    "smsAuthenticationMessage": "Your authentication code is {####}",
+    "smsVerificationMessage": "Your verification code is {####}",
+    "emailVerificationSubject": "Your verification code",
+    "emailVerificationMessage": "Your verification code is {####}",
+    "defaultPasswordPolicy": false,
+    "passwordPolicyMinLength": 8,
+    "passwordPolicyCharacters": [
+        "Requires Lowercase",
+        "Requires Uppercase",
+        "Requires Numbers",
+        "Requires Symbols"
+    ],
+    "requiredAttributes": [
+        "email"
+    ],
+    "userpoolClientName": "cognito061e1d99_app_client",
+    "userpoolClientGenerateSecret": true,
+    "userpoolClientRefreshTokenValidity": 30,
+    "userpoolClientReadAttributes": [
+        "email"
+    ],
+    "mfaLambdaRole": "cognito061e1d99_totp_lambda_role",
+    "mfaLambdaLogPolicy": "cognito061e1d99_totp_lambda_log_policy",
+    "mfaPassRolePolicy": "cognito061e1d99_totp_pass_role_policy",
+    "mfaLambdaIAMPolicy": "cognito061e1d99_totp_lambda_iam_policy",
+    "userpoolClientLambdaRole": "cognito061e1d99_userpoolclient_lambda_role",
+    "userpoolClientLogPolicy": "cognito061e1d99_userpoolclient_lambda_log_policy",
+    "userpoolClientLambdaPolicy": "cognito061e1d99_userpoolclient_lambda_iam_policy",
+    "userpoolClientSetAttributes": false,
+    "identityPoolName": "notebookapp_identitypool_9a0c8893",
+    "allowUnauthenticatedIdentities": false,
+    "thirdPartyAuth": false,
+    "lambdaLogPolicy": "cognito061e1d99_lambda_log_policy",
+    "openIdLambdaRoleName": "cognito061e1d99_openid_lambda_role",
+    "openIdRolePolicy": "cognito061e1d99_openid_pass_role_policy",
+    "openIdLambdaIAMPolicy": "cognito061e1d99_openid_lambda_iam_policy",
+    "openIdLogPolicy": "cognito061e1d99_openid_lambda_log_policy",
+    "useDefault": "default",
+    "unAuthRoleName": "otebookpp-20181106125210-unauthRole",
+    "authRoleName": "otebookpp-20181106125210-authRole",
+    "unAuthRoleArn": "arn:aws:iam::705038358480:role/otebookpp-20181106125210-unauthRole",
+    "authRoleArn": "arn:aws:iam::705038358480:role/otebookpp-20181106125210-authRole"
+}

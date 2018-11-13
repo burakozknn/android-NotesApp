@@ -1,0 +1,11 @@
+{
+    "appName": "notebookapp",
+    "roleName": "pinpointLambdaRole8903b50a",
+    "cloudWatchPolicyName": "cloudWatchPolicy8903b50a",
+    "pinpointPolicyName": "pinpointPolicy8903b50a",
+    "authPolicyName": "pinpoint_amplify_8903b50a",
+    "unauthPolicyName": "pinpoint_amplify_8903b50a",
+    "authRoleName": "otebookpp-20181106125210-authRole",
+    "unauthRoleName": "otebookpp-20181106125210-unauthRole",
+    "IAMPrefix": "705038358480"
+}

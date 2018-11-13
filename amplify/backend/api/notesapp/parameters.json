@@ -1,0 +1,13 @@
+{
+    "AppSyncApiName": "notesapp",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authcognitof3721eea",
+            "Outputs.UserPoolId"
+        ]
+    },
+    "schemaGraphql": "s3://otespp-20181106221534-deployment/amplify-appsync-files/schema.graphql.1541880217462",
+    "ResolverBucket": "otespp-20181106221534-deployment",
+    "ResolverRootKey": "amplify-appsync-files",
+    "DeploymentTimestamp": "1541880217462"
+}
